@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class ApplicationManagerService {
 
-  private _application: applicationType = applicationType.riskCalculator;
+  private _application: applicationType = applicationType.formCreator;
 
   constructor() {
 
